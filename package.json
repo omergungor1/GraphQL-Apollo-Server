@@ -1,0 +1,29 @@
+{
+  "name": "graphql-apollo-server",
+  "version": "1.0.0",
+  "description": "GraphQL Apollo server example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omergungor1/GraphQL-Apollo-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omergungor1/GraphQL-Apollo-Server/issues"
+  },
+  "homepage": "https://github.com/omergungor1/GraphQL-Apollo-Server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "apollo-server-core": "^3.12.0",
+    "graphql": "^16.6.0"
+  }
+}
